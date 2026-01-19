@@ -23,6 +23,7 @@
 
 
       <img src="images/TechWave.png" alt="" class="logo">
+      <div class="menu-icon" id="menu-icon"><img src="images/hamburger-menu.png" alt=""></div>
       <ul class="menu display-flex">
         <li class="list-item"><a href="" class="nav-link">About</a></li>
         <li class="list-item"><a href="" class="nav-link">Episodes</a></li>
@@ -32,17 +33,18 @@
 
     </nav>
     <div class="banner">
-      <div class="btn-new">NEW</div>
+      <button class=" circle new-badge">NEW</button>
       <div class="circle img1"><img src="images/hero-circle.png" alt=""></div>
+
       <div class="circle img2"><img src="images/microphone.png" alt=""></div>
 
-
-
-
-      <h2>TechWave</h2>
-      <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-      <button class="btn-primary">Listen on Spotify</button>
-      <button class="btn-subscribe">Subscribe</button>
+      <div class="tech-content">
+        <h2>TechWave</h2>
+        <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+        <button class="btn-secondary"><i class="fa-brands fa-spotify"></i> Listen on
+          Spotify</button>
+        <button class="btn-subscribe"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+      </div>
 
     </div>
   </header>
@@ -133,7 +135,7 @@
       <h1 class="heading-text">Featured Episodes</h1>
       <div class="feature-container">
         <div class="feature-card">
-          <div class="vedio">
+          <div class="video-wrapper">
             <iframe width="380" height="214" src="https://www.youtube.com/embed/WzsMvagxl-4?si=1Da4SLq8LbeSgjLM"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -149,8 +151,8 @@
           </div>
         </div>
         <div class="feature-card">
-          <div class="vedio">
-            <iframe width="380" height="214" src="https://www.youtube.com/embed/WzsMvagxl-4?si=1Da4SLq8LbeSgjLM"
+          <div class="video-wrapper">
+            <iframe width="380" height="214" src="https://www.youtube.com/embed/pm-2PgmtVvI?si=VVih5tlCMZQ-jBxB"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -165,8 +167,8 @@
           </div>
         </div>
         <div class="feature-card">
-          <div class="vedio">
-            <iframe width="380" height="214" src="https://www.youtube.com/embed/WzsMvagxl-4?si=1Da4SLq8LbeSgjLM"
+          <div class="video-wrapper">
+            <iframe width="380" height="214" src="https://www.youtube.com/embed/UjqeYvBGhQw?si=rO8OetVkGXe3liSW"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -196,14 +198,37 @@
             practical advice for anyone looking to grow in tech.</p>
 
           <div class="social-icons">
-            <img class="icon-img" src="images/linkedin.png" alt="">
-            <img class="icon-img" src="images/x.png" alt="">
-            <img class="icon-img" src="images/instagram.png" alt="">
-            <img class="icon-img" src="images/youtube.png" alt="">
+            <a href="#"><img class="icon-img" src="images/linkedin.png" alt="" width="15px" height="15px"></a>
+            <a href="#"> <img class="icon-img" src="images/x.png" alt=""></a>
+            <a href="#"> <img class="icon-img" src="images/instagram.png" alt=""></a>
+            <a href="#"> <img class="icon-img" src="images/youtube.png" alt=""></a>
           </div>
         </div>
       </div>
 
+    </section>
+
+    <section id="footer">
+      <div class="footer-container">
+        <img src="images/TechWave.png" alt="" width="410px" height="60px">
+        <div class="social-links">
+          <div class="icon-card">
+            <div><i class="fa-brands fa-spotify"></i><span class="footer-text">Spotify</span></div>
+          </div>
+          <div class="icon-card">
+            <div><i class="fa-solid fa-podcast"></i><span class="footer-text">Apple Podcasts</span></div>
+          </div>
+          <div class="icon-card">
+            <div><i class="fa-brands fa-youtube"></i><span class="footer-text">YouTube</span></div>
+          </div>
+          <div class="icon-card">
+            <div><i class="fa-brands fa-twitter"></i><span class="footer-text">Twitter</span></div>
+          </div>
+
+
+        </div>
+        <p><small>&copy; 2026 TechWave Podcast. All rights reserved.</small></p>
+      </div>
     </section>
   </main>
 </body>
