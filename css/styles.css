@@ -142,13 +142,14 @@ margin-right: 8px;
  transform: translateX(-14px);
 }
 .btn-secondary:hover {
-   background: linear-gradient(to right,#9100F8, #F7E93F,#FB09B4);
+   background: transparent;
+ border:2px solid #9100F8;
  
  transform: translateX(-15px);
 }
 .btn-primary:hover {
-   background: linear-gradient(to right,#9100F8, #F7E93F,#FB09B4);
- 
+   background: transparent;
+ border:2px solid #9100F8;
  transform:translateX(-15px);
 }
 
