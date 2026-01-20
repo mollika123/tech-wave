@@ -167,7 +167,7 @@ margin-right: 8px;
  
 .new-badge {
    white-space: nowrap;
-
+ animation: pulse 1.8s infinite;
   top: 60px;
   
   z-index: 1; 
@@ -186,6 +186,25 @@ margin-right: 8px;
 
 line-height: 22px;
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 75, 43, 0.744);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 12px rgba(255, 75, 43, 0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+
 .img2{
   top:-270px;
   z-index: 3;
