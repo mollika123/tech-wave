@@ -551,9 +551,10 @@ overflow-y:hidden ;
 .grid-card{
 margin-left:20px;
 }
-.feature-container{
+.feature-container,.social-links{
   flex-direction: column;
 justify-content: center;
+align-items: center;
 
 }
 .feature-card{
